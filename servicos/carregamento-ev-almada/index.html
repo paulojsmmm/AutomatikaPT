@@ -209,7 +209,16 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
       </section>
     
 
-    <section class="section-padding">
+      <section class="section-padding bg-gray-50">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Particularidades locais de Carregamento Veículo Elétrico em Almada</h2>
+      <p class="mb-4">blocos de apartamentos recentes, com boa fibra e instalações modernas — ideal para sistemas completos desde o início.</p>
+      <ul class="list-disc pl-6 text-gray-600 mb-4">
+        <li>Instalações recentes permitem Shelly com neutro e maior estabilidade Zigbee.</li>
+      </ul>
+    </div>
+  </section>
+<section class="section-padding">
       <div class="container-narrow max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold mb-6">Carregamento Veículo Elétrico: Benefícios</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Carregamento com energia solar excedente — reduz custo para zero</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Sincronização com tarifas horárias mais baratas</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Gestão dinâmica de potência — não sobrecarrega a instalação</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Automação por horário, presença do veículo ou preço da energia</p></div></div>
@@ -362,6 +371,15 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
         <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Posso instalar eu próprio?</summary>
         <div class="p-4 pt-0 text-gray-600">Dispositivos sem fios como sensores Aqara são plug-and-play. Interruptores Shelly requerem instalação elétrica — se não tem experiência, recomendamos um eletricista. O Home Assistant pode ser configurado por qualquer pessoa com vontade de aprender.</div>
       </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Instalam carregamento veículo elétrico em Almada e arredores?</summary>
+      <div class="p-4 pt-0 text-gray-600">Sim. Fazemos orçamentos e primeiras visitas gratuitos em Almada (Cacure, Pragal e Cacure). O suporte pós-instalação é local, presencial quando necessário e remoto via Home Assistant.</div>
+    </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Quanto custa carregamento veículo elétrico numa casa em Almada?</summary>
+      <div class="p-4 pt-0 text-gray-600">Depende do tamanho da casa e dos dispositivos, mas os projetos típicos começam em 180-300€. Enviamos um orçamento detalhado em 24h, sem compromisso.</div>
+    </details>
+
     
       </div>
     </section>
@@ -618,7 +636,92 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://automatika.pt"},{"@type":"ListItem","position":2,"name":"Almada","item":"https://automatika.pt/cidades/almada/"},{"@type":"ListItem","position":3,"name":"Carregamento Veículo Elétrico","item":"https://automatika.pt/servicos/carregamento-ev-almada/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","url":"https://automatika.pt/cidades/almada/","telephone":"+351 912 345 678","email":"info@automatika.pt","address":{"@type":"PostalAddress","addressLocality":"Almada","addressRegion":"Setúbal","addressCountry":"PT"},"areaServed":{"@type":"City","name":"Almada"},"geo":{"@type":"GeoCoordinates","latitude":38.6798,"longitude":-9.1565},"priceRange":"€€"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Carregamento Veículo Elétrico em Almada","description":"O carregamento inteligente de veículos elétricos em casa combina wallboxes com gestão energética, permitindo carregar com energia solar excedente, nos horários mais baratos da tarifa, ou conforme a capacidade da sua instalação elétrica.","provider":{"@type":"LocalBusiness","name":"Automatika.pt","url":"https://automatika.pt"},"areaServed":{"@type":"City","name":"Almada"},"serviceType":"Automação Residencial"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Que wallbox recomendo para Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"Wallpilot e Easee têm excelente integração com Home Assistant via API. Wallbee também é uma opção europeia acessível com suporte MQTT."}},{"@type":"Question","name":"O Shelly funciona sem internet?","acceptedAnswer":{"@type":"Answer","text":"Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet."}},{"@type":"Question","name":"Funciona com Apple HomeKit?","acceptedAnswer":{"@type":"Answer","text":"Sim, via integração HomeBridge ou nativamente para dispositivos Matter. O Home Assistant pode expor dispositivos ao HomeKit."}},{"@type":"Question","name":"Estou a construir — o que devo prever?","acceptedAnswer":{"@type":"Answer","text":"Neutro em todas as caixas de interruptores, canalizações para Ethernet, espaço no quadro elétrico para módulos e localização central para rack de equipamento."}},{"@type":"Question","name":"A automação funciona durante uma falha de energia?","acceptedAnswer":{"@type":"Answer","text":"Os dispositivos param sem eletricidade, mas retomam automaticamente quando a energia volta. Com um UPS (no-break) para o router e Hub Home Assistant, mantém acesso remoto e recebe alertas mesmo durante cortes."}},{"@type":"Question","name":"Posso instalar eu próprio?","acceptedAnswer":{"@type":"Answer","text":"Dispositivos sem fios como sensores Aqara são plug-and-play. Interruptores Shelly requerem instalação elétrica — se não tem experiência, recomendamos um eletricista. O Home Assistant pode ser configurado por qualquer pessoa com vontade de aprender."}},{"@type":"Question","name":"Que wallbox recomendo para Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"A Wallpilot e a Easee têm excelente integração com Home Assistant via API. A Wallbee também é uma opção europeia acessível com suporte MQTT."}},{"@type":"Question","name":"Posso carregar com energia solar?","acceptedAnswer":{"@type":"Answer","text":"Sim, wallboxes como Wallpilot e Easee suportam carregamento solar. O sistema ajusta automaticamente a potência de carregamento conforme o excedente solar disponível."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Que wallbox recomendo para Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wallpilot e Easee têm excelente integração com Home Assistant via API. Wallbee também é uma opção europeia acessível com suporte MQTT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Shelly funciona sem internet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Funciona com Apple HomeKit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, via integração HomeBridge ou nativamente para dispositivos Matter. O Home Assistant pode expor dispositivos ao HomeKit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Estou a construir — o que devo prever?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neutro em todas as caixas de interruptores, canalizações para Ethernet, espaço no quadro elétrico para módulos e localização central para rack de equipamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A automação funciona durante uma falha de energia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os dispositivos param sem eletricidade, mas retomam automaticamente quando a energia volta. Com um UPS (no-break) para o router e Hub Home Assistant, mantém acesso remoto e recebe alertas mesmo durante cortes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso instalar eu próprio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dispositivos sem fios como sensores Aqara são plug-and-play. Interruptores Shelly requerem instalação elétrica — se não tem experiência, recomendamos um eletricista. O Home Assistant pode ser configurado por qualquer pessoa com vontade de aprender."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que wallbox recomendo para Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Wallpilot e a Easee têm excelente integração com Home Assistant via API. A Wallbee também é uma opção europeia acessível com suporte MQTT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso carregar com energia solar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, wallboxes como Wallpilot e Easee suportam carregamento solar. O sistema ajusta automaticamente a potência de carregamento conforme o excedente solar disponível."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instalamos carregamento veículo elétrico em Almada e arredores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Fazemos orçamentos e primeiras visitas gratuitos em Almada. O suporte pós-instalação é local e remoto via Home Assistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa carregamento veículo elétrico numa casa em Almada?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projetos típicos começam em 180-300€, consoante o tamanho da casa. Orçamento detalhado em 24h, sem compromisso."
+      }
+    }
+  ]
+}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Automatika.pt","url":"https://automatika.pt","logo": "https://automatika.pt/assets/logo.png","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","areaServed":{"@type":"Country","name":"Portugal"},"sameAs": []}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://automatika.pt/servicos/carregamento-ev-almada/","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","inLanguage":"pt-PT"}</script>
 </body>

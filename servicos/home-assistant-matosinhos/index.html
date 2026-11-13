@@ -209,7 +209,16 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
       </section>
     
 
-    <section class="section-padding">
+      <section class="section-padding bg-gray-50">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Particularidades locais de Home Assistant em Matosinhos</h2>
+      <p class="mb-4">apartamentos próximos da praia e moradias antigas; a humididade exige equipamentos protegidos contra condensação.</p>
+      <ul class="list-disc pl-6 text-gray-600 mb-4">
+        <li>Sensores de humidade para prevenir bolores — automação de ventilação.</li>
+      </ul>
+    </div>
+  </section>
+<section class="section-padding">
       <div class="container-narrow max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold mb-6">Home Assistant: Benefícios</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">100% local — sem dependência de cloud ou subscrições mensais</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Suporte para mais de 1000 marcas e protocolos diferentes</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Comunidade ativa com milhares de contribuidores globais</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Automações avançadas com Node-RED e YAML</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Integração nativa com dashboards personalizáveis (Lovelace)</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Funciona offline — a sua casa continua automatizada sem internet</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Privacidade total — os seus dados nunca saem de casa</p></div></div>
@@ -374,6 +383,15 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
         <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Preciso de conhecimentos técnicos?</summary>
         <div class="p-4 pt-0 text-gray-600">Para o básico, não. A interface gráfica permite criar automações sem código. Para funcionalidades avançadas (Node-RED, YAML), algum conhecimento técnico ajuda mas a comunidade oferece milhares de exemplos prontos.</div>
       </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Instalam home assistant em Matosinhos e arredores?</summary>
+      <div class="p-4 pt-0 text-gray-600">Sim. Fazemos orçamentos e primeiras visitas gratuitos em Matosinhos (Matosinhos junto à praia e Leça). O suporte pós-instalação é local, presencial quando necessário e remoto via Home Assistant.</div>
+    </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Quanto custa home assistant numa casa em Matosinhos?</summary>
+      <div class="p-4 pt-0 text-gray-600">Depende do tamanho da casa e dos dispositivos, mas os projetos típicos começam em 180-300€. Enviamos um orçamento detalhado em 24h, sem compromisso.</div>
+    </details>
+
     
       </div>
     </section>
@@ -630,7 +648,100 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://automatika.pt"},{"@type":"ListItem","position":2,"name":"Matosinhos","item":"https://automatika.pt/cidades/matosinhos/"},{"@type":"ListItem","position":3,"name":"Home Assistant","item":"https://automatika.pt/servicos/home-assistant-matosinhos/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","url":"https://automatika.pt/cidades/matosinhos/","telephone":"+351 912 345 678","email":"info@automatika.pt","address":{"@type":"PostalAddress","addressLocality":"Matosinhos","addressRegion":"Porto","addressCountry":"PT"},"areaServed":{"@type":"City","name":"Matosinhos"},"geo":{"@type":"GeoCoordinates","latitude":41.1869,"longitude":-8.6845},"priceRange":"€€"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Home Assistant em Matosinhos","description":"O Home Assistant é a plataforma de automação residencial mais popular do mundo, com suporte para mais de 1000 marcas e protocolos. Roda localmente sem dependência de cloud, garantindo privacidade total e controlo absoluto sobre a sua casa inteligente.","provider":{"@type":"LocalBusiness","name":"Automatika.pt","url":"https://automatika.pt"},"areaServed":{"@type":"City","name":"Matosinhos"},"serviceType":"Automação Residencial"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é o Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"Home Assistant é uma plataforma de automação residencial open-source que roda localmente no seu hardware. Suporta mais de 1000 integrações e permite controlar todos os dispositivos inteligentes da sua casa num único lugar, sem dependência de cloud."}},{"@type":"Question","name":"O Home Assistant é gratuito?","acceptedAnswer":{"@type":"Answer","text":"Sim, o Home Assistant Core e Home Assistant OS são completamente gratuitos. O serviço Cloud opcional (Nabu Casa) custa €7/mês e facilita acesso remoto e integração com Alexa/Google, mas não é obrigatório."}},{"@type":"Question","name":"Onde instalo o Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"Num Raspberry Pi 4, NAS Synology/QNAP, mini-PC Intel NUC ou qualquer servidor com Docker. O Home Assistant Green é a solução oficial pronta a usar."}},{"@type":"Question","name":"Estou a construir — o que devo prever?","acceptedAnswer":{"@type":"Answer","text":"Neutro em todas as caixas de interruptores, canalizações para Ethernet, espaço no quadro elétrico para módulos e localização central para rack de equipamento."}},{"@type":"Question","name":"O Home Assistant funciona sem internet?","acceptedAnswer":{"@type":"Answer","text":"Sim, 100%. Todas as automações executam-se localmente. A internet só é necessária para atualizações de software e acesso remoto (opcional)."}},{"@type":"Question","name":"Preciso de conhecimentos técnicos?","acceptedAnswer":{"@type":"Answer","text":"Para o básico, não. A interface gráfica permite criar automações sem código. Para funcionalidades avançadas (Node-RED, YAML), algum conhecimento técnico ajuda mas a comunidade oferece milhares de exemplos prontos."}},{"@type":"Question","name":"O Home Assistant é gratuito?","acceptedAnswer":{"@type":"Answer","text":"Sim, o Home Assistant Core e o Home Assistant OS são completamente gratuitos e open-source. O Home Assistant Cloud (Nabu Casa) é um serviço opcional por €7/mês que facilita o acesso remoto e integração com Alexa/Google, mas não é obrigatório."}},{"@type":"Question","name":"Preciso de internet para usar o Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"Não. O Home Assistant roda 100% localmente. A internet só é necessária para atualizações, acesso remoto (opcional), e integrações que dependem de cloud como notificações Push ou previsões meteorológicas."}},{"@type":"Question","name":"Que hardware preciso para rodar o Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"O mínimo é um Raspberry Pi 4 (4GB RAM). Opções mais robustas incluem um NAS Synology/QNAP, um mini-PC Intel NUC, ou qualquer servidor com Docker. Para instalações grandes com câmaras e IA, recomenda-se hardware com pelo menos 8GB de RAM."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O que é o Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Home Assistant é uma plataforma de automação residencial open-source que roda localmente no seu hardware. Suporta mais de 1000 integrações e permite controlar todos os dispositivos inteligentes da sua casa num único lugar, sem dependência de cloud."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Home Assistant é gratuito?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, o Home Assistant Core e Home Assistant OS são completamente gratuitos. O serviço Cloud opcional (Nabu Casa) custa €7/mês e facilita acesso remoto e integração com Alexa/Google, mas não é obrigatório."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Onde instalo o Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Num Raspberry Pi 4, NAS Synology/QNAP, mini-PC Intel NUC ou qualquer servidor com Docker. O Home Assistant Green é a solução oficial pronta a usar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Estou a construir — o que devo prever?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neutro em todas as caixas de interruptores, canalizações para Ethernet, espaço no quadro elétrico para módulos e localização central para rack de equipamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Home Assistant funciona sem internet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, 100%. Todas as automações executam-se localmente. A internet só é necessária para atualizações de software e acesso remoto (opcional)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de conhecimentos técnicos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para o básico, não. A interface gráfica permite criar automações sem código. Para funcionalidades avançadas (Node-RED, YAML), algum conhecimento técnico ajuda mas a comunidade oferece milhares de exemplos prontos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Home Assistant é gratuito?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, o Home Assistant Core e o Home Assistant OS são completamente gratuitos e open-source. O Home Assistant Cloud (Nabu Casa) é um serviço opcional por €7/mês que facilita o acesso remoto e integração com Alexa/Google, mas não é obrigatório."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de internet para usar o Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. O Home Assistant roda 100% localmente. A internet só é necessária para atualizações, acesso remoto (opcional), e integrações que dependem de cloud como notificações Push ou previsões meteorológicas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que hardware preciso para rodar o Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O mínimo é um Raspberry Pi 4 (4GB RAM). Opções mais robustas incluem um NAS Synology/QNAP, um mini-PC Intel NUC, ou qualquer servidor com Docker. Para instalações grandes com câmaras e IA, recomenda-se hardware com pelo menos 8GB de RAM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instalamos home assistant em Matosinhos e arredores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Fazemos orçamentos e primeiras visitas gratuitos em Matosinhos. O suporte pós-instalação é local e remoto via Home Assistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa home assistant numa casa em Matosinhos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projetos típicos começam em 180-300€, consoante o tamanho da casa. Orçamento detalhado em 24h, sem compromisso."
+      }
+    }
+  ]
+}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Automatika.pt","url":"https://automatika.pt","logo": "https://automatika.pt/assets/logo.png","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","areaServed":{"@type":"Country","name":"Portugal"},"sameAs": []}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://automatika.pt/servicos/home-assistant-matosinhos/","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","inLanguage":"pt-PT"}</script>
 </body>

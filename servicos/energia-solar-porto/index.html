@@ -209,7 +209,17 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
       </section>
     
 
-    <section class="section-padding">
+      <section class="section-padding bg-gray-50">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Particularidades locais de Energia Solar e Monitorização em Porto</h2>
+      <p class="mb-4">a zona combina pedra antiga no centro (sem neutro nas caixas) com apartamentos novos na Foz e Aldoar — cada caso exige uma solução diferente.</p>
+      <ul class="list-disc pl-6 text-gray-600 mb-4">
+        <li>No centro histórico, usamos dispositivos sem neutro e relés Zigbee para não tocar na instalação original.</li>
+        <li>Inverno mais frio e húmido: automação de climatização com sensores de temperatura poupa 10-20% na factura.</li>
+      </ul>
+    </div>
+  </section>
+<section class="section-padding">
       <div class="container-narrow max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold mb-6">Energia Solar e Monitorização: Benefícios</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Redução de até 70% na fatura elétrica com autoconsumo otimizado</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Automação de cargas conforme produção solar em tempo real</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Previsão de produção baseada em dados meteorológicos</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Integração com baterias para autonomia energética</p></div></div>
@@ -362,6 +372,15 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
         <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">A automação funciona no verão português?</summary>
         <div class="p-4 pt-0 text-gray-600">Sim, e é particularmente útil: AC que liga sozinho com o calor, persianas automáticas contra sol forte e monitorização de consumo nos meses mais quentes.</div>
       </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Instalam energia solar e monitorização em Porto e arredores?</summary>
+      <div class="p-4 pt-0 text-gray-600">Sim. Fazemos orçamentos e primeiras visitas gratuitos em Porto (Foz, Aldoar, Bonfim e o centro histórico). O suporte pós-instalação é local, presencial quando necessário e remoto via Home Assistant.</div>
+    </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Quanto custa energia solar e monitorização numa casa em Porto?</summary>
+      <div class="p-4 pt-0 text-gray-600">Depende do tamanho da casa e dos dispositivos, mas os projetos típicos começam em 180-300€. Enviamos um orçamento detalhado em 24h, sem compromisso.</div>
+    </details>
+
     
       </div>
     </section>
@@ -618,7 +637,92 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://automatika.pt"},{"@type":"ListItem","position":2,"name":"Porto","item":"https://automatika.pt/cidades/porto/"},{"@type":"ListItem","position":3,"name":"Energia Solar e Monitorização","item":"https://automatika.pt/servicos/energia-solar-porto/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","url":"https://automatika.pt/cidades/porto/","telephone":"+351 912 345 678","email":"info@automatika.pt","address":{"@type":"PostalAddress","addressLocality":"Porto","addressRegion":"Porto","addressCountry":"PT"},"areaServed":{"@type":"City","name":"Porto"},"geo":{"@type":"GeoCoordinates","latitude":41.1579,"longitude":-8.6291},"priceRange":"€€"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Energia Solar e Monitorização em Porto","description":"A monitorização inteligente de energia solar permite otimizar o consumo doméstico conforme a produção dos seus painéis, automatizando cargas como carregamento EV e climatização para usar energia quando está mais barata ou disponível.","provider":{"@type":"LocalBusiness","name":"Automatika.pt","url":"https://automatika.pt"},"areaServed":{"@type":"City","name":"Porto"},"serviceType":"Automação Residencial"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Como integrar painéis solares com Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"A maioria dos inversores (Huawei, SolarEdge, Fronius) integra via API REST ou Modbus. O add-on SolarWatcher combina produção solar com previsão meteorológica."}},{"@type":"Question","name":"Quanto rende um sistema solar em Portugal?","acceptedAnswer":{"@type":"Answer","text":"Cada kWp instalado gera entre 1.200 e 1.800 kWh/ano. Um sistema de 5kWp no Algarve pode gerar até 9.000 kWh/ano."}},{"@type":"Question","name":"Funciona com Alexa e Google Home?","acceptedAnswer":{"@type":"Answer","text":"Sim. O Home Assistant integra com Alexa e Google Home via integração cloud-to-cloud ou local. Pode controlar dispositivos por voz em português."}},{"@type":"Question","name":"Posso instalar eu próprio?","acceptedAnswer":{"@type":"Answer","text":"Dispositivos sem fios como sensores Aqara são plug-and-play. Interruptores Shelly requerem instalação elétrica — se não tem experiência, recomendamos um eletricista. O Home Assistant pode ser configurado por qualquer pessoa com vontade de aprender."}},{"@type":"Question","name":"A automação faz ruído?","acceptedAnswer":{"@type":"Answer","text":"Os dispositivos são silenciosos. Atuadores de persianas e trancas inteligentes emitem um som suave durante a operação, semelhante ao equipamento original."}},{"@type":"Question","name":"A automação funciona no verão português?","acceptedAnswer":{"@type":"Answer","text":"Sim, e é particularmente útil: AC que liga sozinho com o calor, persianas automáticas contra sol forte e monitorização de consumo nos meses mais quentes."}},{"@type":"Question","name":"Quanto rende um sistema solar em Portugal?","acceptedAnswer":{"@type":"Answer","text":"Em Portugal continental, cada kWp instalado gera entre 1.200 e 1.800 kWh/ano. Um sistema de 5kWp no Algarve pode gerar até 9.000 kWh/ano, enquanto no Norte cerca de 6.000 kWh/ano."}},{"@type":"Question","name":"Como integrar painéis solares com Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"A maioria dos inversores modernos (Huawei, SolarEdge, Fronius) integra via API REST ou Modbus. Add-ons como o SolarWatcher combinam produção solar com previsão meteorológica para otimizar consumos."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Como integrar painéis solares com Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A maioria dos inversores (Huawei, SolarEdge, Fronius) integra via API REST ou Modbus. O add-on SolarWatcher combina produção solar com previsão meteorológica."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto rende um sistema solar em Portugal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cada kWp instalado gera entre 1.200 e 1.800 kWh/ano. Um sistema de 5kWp no Algarve pode gerar até 9.000 kWh/ano."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Funciona com Alexa e Google Home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. O Home Assistant integra com Alexa e Google Home via integração cloud-to-cloud ou local. Pode controlar dispositivos por voz em português."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso instalar eu próprio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dispositivos sem fios como sensores Aqara são plug-and-play. Interruptores Shelly requerem instalação elétrica — se não tem experiência, recomendamos um eletricista. O Home Assistant pode ser configurado por qualquer pessoa com vontade de aprender."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A automação faz ruído?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os dispositivos são silenciosos. Atuadores de persianas e trancas inteligentes emitem um som suave durante a operação, semelhante ao equipamento original."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A automação funciona no verão português?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, e é particularmente útil: AC que liga sozinho com o calor, persianas automáticas contra sol forte e monitorização de consumo nos meses mais quentes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto rende um sistema solar em Portugal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Em Portugal continental, cada kWp instalado gera entre 1.200 e 1.800 kWh/ano. Um sistema de 5kWp no Algarve pode gerar até 9.000 kWh/ano, enquanto no Norte cerca de 6.000 kWh/ano."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como integrar painéis solares com Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A maioria dos inversores modernos (Huawei, SolarEdge, Fronius) integra via API REST ou Modbus. Add-ons como o SolarWatcher combinam produção solar com previsão meteorológica para otimizar consumos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instalamos energia solar e monitorização em Porto e arredores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Fazemos orçamentos e primeiras visitas gratuitos em Porto. O suporte pós-instalação é local e remoto via Home Assistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa energia solar e monitorização numa casa em Porto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projetos típicos começam em 180-300€, consoante o tamanho da casa. Orçamento detalhado em 24h, sem compromisso."
+      }
+    }
+  ]
+}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Automatika.pt","url":"https://automatika.pt","logo": "https://automatika.pt/assets/logo.png","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","areaServed":{"@type":"Country","name":"Portugal"},"sameAs": []}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://automatika.pt/servicos/energia-solar-porto/","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","inLanguage":"pt-PT"}</script>
 </body>

@@ -209,7 +209,16 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
       </section>
     
 
-    <section class="section-padding">
+      <section class="section-padding bg-gray-50">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Particularidades locais de Zigbee em Matosinhos</h2>
+      <p class="mb-4">apartamentos próximos da praia e moradias antigas; a humididade exige equipamentos protegidos contra condensação.</p>
+      <ul class="list-disc pl-6 text-gray-600 mb-4">
+        <li>Sensores de humidade para prevenir bolores — automação de ventilação.</li>
+      </ul>
+    </div>
+  </section>
+<section class="section-padding">
       <div class="container-narrow max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold mb-6">Zigbee: Benefícios</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Rede mesh — cada dispositivo amplifica o sinal automaticamente</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Baixo consumo — sensores a pilha duram anos, não meses</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Milhares de dispositivos disponíveis de múltiplas marcas</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Canais separados do WiFi — sem interferência na rede doméstica</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Latência baixa para resposta rápida a sensores</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Custo acessível por dispositivo comparado com WiFi</p></div></div>
@@ -384,6 +393,15 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
         <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Funciona com Apple HomeKit?</summary>
         <div class="p-4 pt-0 text-gray-600">Sim, via integração HomeBridge ou nativamente para dispositivos Matter. O Home Assistant pode expor dispositivos ao HomeKit.</div>
       </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Instalam zigbee em Matosinhos e arredores?</summary>
+      <div class="p-4 pt-0 text-gray-600">Sim. Fazemos orçamentos e primeiras visitas gratuitos em Matosinhos (Matosinhos junto à praia e Leça). O suporte pós-instalação é local, presencial quando necessário e remoto via Home Assistant.</div>
+    </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Quanto custa zigbee numa casa em Matosinhos?</summary>
+      <div class="p-4 pt-0 text-gray-600">Depende do tamanho da casa e dos dispositivos, mas os projetos típicos começam em 180-300€. Enviamos um orçamento detalhado em 24h, sem compromisso.</div>
+    </details>
+
     
       </div>
     </section>
@@ -640,7 +658,100 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://automatika.pt"},{"@type":"ListItem","position":2,"name":"Matosinhos","item":"https://automatika.pt/cidades/matosinhos/"},{"@type":"ListItem","position":3,"name":"Zigbee","item":"https://automatika.pt/servicos/zigbee-matosinhos/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","url":"https://automatika.pt/cidades/matosinhos/","telephone":"+351 912 345 678","email":"info@automatika.pt","address":{"@type":"PostalAddress","addressLocality":"Matosinhos","addressRegion":"Porto","addressCountry":"PT"},"areaServed":{"@type":"City","name":"Matosinhos"},"geo":{"@type":"GeoCoordinates","latitude":41.1869,"longitude":-8.6845},"priceRange":"€€"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Zigbee em Matosinhos","description":"O Zigbee é um protocolo de comunicação sem fios projetado especificamente para automação residencial. Com topologia em malha (mesh), cada dispositivo funciona como repetidor, ampliando o alcance da rede automaticamente. É ideal para sensores a pilha que precisam de anos de autonomia.","provider":{"@type":"LocalBusiness","name":"Automatika.pt","url":"https://automatika.pt"},"areaServed":{"@type":"City","name":"Matosinhos"},"serviceType":"Automação Residencial"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Estou a construir — o que devo prever?","acceptedAnswer":{"@type":"Answer","text":"Neutro em todas as caixas de interruptores, canalizações para Ethernet, espaço no quadro elétrico para módulos e localização central para rack de equipamento."}},{"@type":"Question","name":"Zigbee interfere com WiFi?","acceptedAnswer":{"@type":"Answer","text":"Pode se partilharem canais sobrepostos. A solução é configurar o coordinator Zigbee num canal que não sobreponha o canal do router WiFi."}},{"@type":"Question","name":"O que é Zigbee?","acceptedAnswer":{"@type":"Answer","text":"Zigbee é um protocolo sem fios de baixo consumo para automação residencial. Cria uma rede mesh onde cada dispositivo alimentado por corrente funciona como repetidor, ideal para sensores a pilha."}},{"@type":"Question","name":"A automação funciona durante uma falha de energia?","acceptedAnswer":{"@type":"Answer","text":"Os dispositivos param sem eletricidade, mas retomam automaticamente quando a energia volta. Com um UPS (no-break) para o router e Hub Home Assistant, mantém acesso remoto e recebe alertas mesmo durante cortes."}},{"@type":"Question","name":"O Shelly funciona sem internet?","acceptedAnswer":{"@type":"Answer","text":"Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet."}},{"@type":"Question","name":"Funciona com Apple HomeKit?","acceptedAnswer":{"@type":"Answer","text":"Sim, via integração HomeBridge ou nativamente para dispositivos Matter. O Home Assistant pode expor dispositivos ao HomeKit."}},{"@type":"Question","name":"O que é Zigbee?","acceptedAnswer":{"@type":"Answer","text":"Zigbee é um protocolo sem fios de baixo consumo para automação residencial. Cria uma rede mesh onde cada dispositivo funciona como repetidor, ideal para sensores a pilha e instalações com dezenas de dispositivos."}},{"@type":"Question","name":"Zigbee interfere com WiFi?","acceptedAnswer":{"@type":"Answer","text":"Pode interferir se partilharem canais sobrepostos. O Zigbee opera nos canais 11-26 na banda 2.4 GHz. A solução é configurar o coordinator Zigbee num canal que não sobreponha o canal do router WiFi (ex: canal Zigbee 15 com WiFi no canal 6)."}},{"@type":"Question","name":"Preciso de internet para Zigbee?","acceptedAnswer":{"@type":"Answer","text":"Não. O Zigbee é um protocolo local. As comunções entre dispositivos e o coordinator acontecem na rede doméstica sem necessidade de internet."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Estou a construir — o que devo prever?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neutro em todas as caixas de interruptores, canalizações para Ethernet, espaço no quadro elétrico para módulos e localização central para rack de equipamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Zigbee interfere com WiFi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pode se partilharem canais sobrepostos. A solução é configurar o coordinator Zigbee num canal que não sobreponha o canal do router WiFi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é Zigbee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zigbee é um protocolo sem fios de baixo consumo para automação residencial. Cria uma rede mesh onde cada dispositivo alimentado por corrente funciona como repetidor, ideal para sensores a pilha."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A automação funciona durante uma falha de energia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os dispositivos param sem eletricidade, mas retomam automaticamente quando a energia volta. Com um UPS (no-break) para o router e Hub Home Assistant, mantém acesso remoto e recebe alertas mesmo durante cortes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Shelly funciona sem internet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Funciona com Apple HomeKit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, via integração HomeBridge ou nativamente para dispositivos Matter. O Home Assistant pode expor dispositivos ao HomeKit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é Zigbee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zigbee é um protocolo sem fios de baixo consumo para automação residencial. Cria uma rede mesh onde cada dispositivo funciona como repetidor, ideal para sensores a pilha e instalações com dezenas de dispositivos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Zigbee interfere com WiFi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pode interferir se partilharem canais sobrepostos. O Zigbee opera nos canais 11-26 na banda 2.4 GHz. A solução é configurar o coordinator Zigbee num canal que não sobreponha o canal do router WiFi (ex: canal Zigbee 15 com WiFi no canal 6)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de internet para Zigbee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. O Zigbee é um protocolo local. As comunções entre dispositivos e o coordinator acontecem na rede doméstica sem necessidade de internet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instalamos zigbee em Matosinhos e arredores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Fazemos orçamentos e primeiras visitas gratuitos em Matosinhos. O suporte pós-instalação é local e remoto via Home Assistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa zigbee numa casa em Matosinhos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projetos típicos começam em 180-300€, consoante o tamanho da casa. Orçamento detalhado em 24h, sem compromisso."
+      }
+    }
+  ]
+}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Automatika.pt","url":"https://automatika.pt","logo": "https://automatika.pt/assets/logo.png","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","areaServed":{"@type":"Country","name":"Portugal"},"sameAs": []}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://automatika.pt/servicos/zigbee-matosinhos/","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","inLanguage":"pt-PT"}</script>
 </body>

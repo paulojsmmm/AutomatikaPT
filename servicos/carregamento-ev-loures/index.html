@@ -209,7 +209,16 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
       </section>
     
 
-    <section class="section-padding">
+      <section class="section-padding bg-gray-50">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Particularidades locais de Carregamento Veículo Elétrico em Loures</h2>
+      <p class="mb-4">mix de moradias unifamiliares e apartamentos — moradias pedem segurança perimetral e automatização de portões.</p>
+      <ul class="list-disc pl-6 text-gray-600 mb-4">
+        <li>Zonas com sinal mais fraco: recomendamos hubs locais e redes Zigbee dedicadas.</li>
+      </ul>
+    </div>
+  </section>
+<section class="section-padding">
       <div class="container-narrow max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold mb-6">Carregamento Veículo Elétrico: Benefícios</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Carregamento com energia solar excedente — reduz custo para zero</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Sincronização com tarifas horárias mais baratas</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Gestão dinâmica de potência — não sobrecarrega a instalação</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Automação por horário, presença do veículo ou preço da energia</p></div></div>
@@ -362,6 +371,15 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
         <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Os meus dados estão seguros?</summary>
         <div class="p-4 pt-0 text-gray-600">Com Home Assistant, todos os dados ficam na sua casa. Nenhum dado é enviado para servidores externos a menos que configure explicitamente (ex: notificações Push).</div>
       </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Instalam carregamento veículo elétrico em Loures e arredores?</summary>
+      <div class="p-4 pt-0 text-gray-600">Sim. Fazemos orçamentos e primeiras visitas gratuitos em Loures (Loures, Sacavém e priormente zonas rurais). O suporte pós-instalação é local, presencial quando necessário e remoto via Home Assistant.</div>
+    </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Quanto custa carregamento veículo elétrico numa casa em Loures?</summary>
+      <div class="p-4 pt-0 text-gray-600">Depende do tamanho da casa e dos dispositivos, mas os projetos típicos começam em 180-300€. Enviamos um orçamento detalhado em 24h, sem compromisso.</div>
+    </details>
+
     
       </div>
     </section>
@@ -618,7 +636,92 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://automatika.pt"},{"@type":"ListItem","position":2,"name":"Loures","item":"https://automatika.pt/cidades/loures/"},{"@type":"ListItem","position":3,"name":"Carregamento Veículo Elétrico","item":"https://automatika.pt/servicos/carregamento-ev-loures/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","url":"https://automatika.pt/cidades/loures/","telephone":"+351 912 345 678","email":"info@automatika.pt","address":{"@type":"PostalAddress","addressLocality":"Loures","addressRegion":"Lisboa","addressCountry":"PT"},"areaServed":{"@type":"City","name":"Loures"},"geo":{"@type":"GeoCoordinates","latitude":38.8177,"longitude":-9.2615},"priceRange":"€€"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Carregamento Veículo Elétrico em Loures","description":"O carregamento inteligente de veículos elétricos em casa combina wallboxes com gestão energética, permitindo carregar com energia solar excedente, nos horários mais baratos da tarifa, ou conforme a capacidade da sua instalação elétrica.","provider":{"@type":"LocalBusiness","name":"Automatika.pt","url":"https://automatika.pt"},"areaServed":{"@type":"City","name":"Loures"},"serviceType":"Automação Residencial"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Que wallbox recomendo para Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"Wallpilot e Easee têm excelente integração com Home Assistant via API. Wallbee também é uma opção europeia acessível com suporte MQTT."}},{"@type":"Question","name":"A minha casa é antiga — funciona?","acceptedAnswer":{"@type":"Answer","text":"Sim. Dispositivos Shelly sem neutro e sensores Zigbee a pilha são perfeitos para casas antigas. Não requerem alterações à instalação existente."}},{"@type":"Question","name":"O que é o Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"Home Assistant é uma plataforma de automação residencial open-source que roda localmente no seu hardware. Suporta mais de 1000 integrações e permite controlar todos os dispositivos inteligentes da sua casa num único lugar, sem dependência de cloud."}},{"@type":"Question","name":"A automação ajuda pessoas idosas?","acceptedAnswer":{"@type":"Answer","text":"Sim, significativamente: iluminação automática em corredores, alertas de segurança, controlo por voz para quem tem mobilidade reduzida e deteção de quedas com sensores avançados."}},{"@type":"Question","name":"O que é Zigbee?","acceptedAnswer":{"@type":"Answer","text":"Zigbee é um protocolo sem fios de baixo consumo para automação residencial. Cria uma rede mesh onde cada dispositivo alimentado por corrente funciona como repetidor, ideal para sensores a pilha."}},{"@type":"Question","name":"Os meus dados estão seguros?","acceptedAnswer":{"@type":"Answer","text":"Com Home Assistant, todos os dados ficam na sua casa. Nenhum dado é enviado para servidores externos a menos que configure explicitamente (ex: notificações Push)."}},{"@type":"Question","name":"Que wallbox recomendo para Home Assistant?","acceptedAnswer":{"@type":"Answer","text":"A Wallpilot e a Easee têm excelente integração com Home Assistant via API. A Wallbee também é uma opção europeia acessível com suporte MQTT."}},{"@type":"Question","name":"Posso carregar com energia solar?","acceptedAnswer":{"@type":"Answer","text":"Sim, wallboxes como Wallpilot e Easee suportam carregamento solar. O sistema ajusta automaticamente a potência de carregamento conforme o excedente solar disponível."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Que wallbox recomendo para Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wallpilot e Easee têm excelente integração com Home Assistant via API. Wallbee também é uma opção europeia acessível com suporte MQTT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A minha casa é antiga — funciona?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Dispositivos Shelly sem neutro e sensores Zigbee a pilha são perfeitos para casas antigas. Não requerem alterações à instalação existente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é o Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Home Assistant é uma plataforma de automação residencial open-source que roda localmente no seu hardware. Suporta mais de 1000 integrações e permite controlar todos os dispositivos inteligentes da sua casa num único lugar, sem dependência de cloud."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A automação ajuda pessoas idosas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, significativamente: iluminação automática em corredores, alertas de segurança, controlo por voz para quem tem mobilidade reduzida e deteção de quedas com sensores avançados."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é Zigbee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zigbee é um protocolo sem fios de baixo consumo para automação residencial. Cria uma rede mesh onde cada dispositivo alimentado por corrente funciona como repetidor, ideal para sensores a pilha."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Os meus dados estão seguros?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Com Home Assistant, todos os dados ficam na sua casa. Nenhum dado é enviado para servidores externos a menos que configure explicitamente (ex: notificações Push)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que wallbox recomendo para Home Assistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Wallpilot e a Easee têm excelente integração com Home Assistant via API. A Wallbee também é uma opção europeia acessível com suporte MQTT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso carregar com energia solar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, wallboxes como Wallpilot e Easee suportam carregamento solar. O sistema ajusta automaticamente a potência de carregamento conforme o excedente solar disponível."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instalamos carregamento veículo elétrico em Loures e arredores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Fazemos orçamentos e primeiras visitas gratuitos em Loures. O suporte pós-instalação é local e remoto via Home Assistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa carregamento veículo elétrico numa casa em Loures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projetos típicos começam em 180-300€, consoante o tamanho da casa. Orçamento detalhado em 24h, sem compromisso."
+      }
+    }
+  ]
+}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Automatika.pt","url":"https://automatika.pt","logo": "https://automatika.pt/assets/logo.png","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","areaServed":{"@type":"Country","name":"Portugal"},"sameAs": []}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://automatika.pt/servicos/carregamento-ev-loures/","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","inLanguage":"pt-PT"}</script>
 </body>

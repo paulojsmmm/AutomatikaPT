@@ -209,7 +209,17 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
       </section>
     
 
-    <section class="section-padding">
+      <section class="section-padding bg-gray-50">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Particularidades locais de Shelly em Cascais</h2>
+      <p class="mb-4">moradias de gama alta e apartamentos frente mar — muitos clientes pedem sistemas completos Home Assistant com design discreto e integração de piscina.</p>
+      <ul class="list-disc pl-6 text-gray-600 mb-4">
+        <li>Segurança perimetral e simulação de presença para casas de segunda residência.</li>
+        <li>Automatização de piscina (filtros, coberturas e aquecimento) integrada no dashboard.</li>
+      </ul>
+    </div>
+  </section>
+<section class="section-padding">
       <div class="container-narrow max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold mb-6">Shelly: Benefícios</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Instalação sem alterar a fiação existente — substitui o relé no quadro</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Monitorização energética em tempo real por circuito</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Funciona localmente sem dependência de cloud</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Excelente relação qualidade-preço no mercado europeu</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Integração nativa com Home Assistant via API local</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Série Pro com PoE e RS485 para instalações profissionais KNX-like</p></div></div>
@@ -377,6 +387,15 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
         <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">O que é o Frigate?</summary>
         <div class="p-4 pt-0 text-gray-600">Frigate é um NVR open-source com deteção de objetos por IA que roda localmente. Usa GPU para analisar vídeo em tempo real e distinguir entre pessoas, veículos e animais.</div>
       </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Instalam shelly em Cascais e arredores?</summary>
+      <div class="p-4 pt-0 text-gray-600">Sim. Fazemos orçamentos e primeiras visitas gratuitos em Cascais (Cascais centro, Guichão e zona do Estoril). O suporte pós-instalação é local, presencial quando necessário e remoto via Home Assistant.</div>
+    </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Quanto custa shelly numa casa em Cascais?</summary>
+      <div class="p-4 pt-0 text-gray-600">Depende do tamanho da casa e dos dispositivos, mas os projetos típicos começam em 180-300€. Enviamos um orçamento detalhado em 24h, sem compromisso.</div>
+    </details>
+
     
       </div>
     </section>
@@ -633,7 +652,100 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://automatika.pt"},{"@type":"ListItem","position":2,"name":"Cascais","item":"https://automatika.pt/cidades/cascais/"},{"@type":"ListItem","position":3,"name":"Shelly","item":"https://automatika.pt/servicos/shelly-cascais/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","url":"https://automatika.pt/cidades/cascais/","telephone":"+351 912 345 678","email":"info@automatika.pt","address":{"@type":"PostalAddress","addressLocality":"Cascais","addressRegion":"Lisboa","addressCountry":"PT"},"areaServed":{"@type":"City","name":"Cascais"},"geo":{"@type":"GeoCoordinates","latitude":38.6974,"longitude":-9.4217},"priceRange":"€€"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Shelly em Cascais","description":"Os dispositivos Shelly transformam qualquer instalação elétrica num sistema inteligente. Com interruptores, relés e sensores que se instalam sem alterar a fiação existente, o ecossistema Shelly oferece controlo remoto, automações e monitorização energética com excelente relação qualidade-preço.","provider":{"@type":"LocalBusiness","name":"Automatika.pt","url":"https://automatika.pt"},"areaServed":{"@type":"City","name":"Cascais"},"serviceType":"Automação Residencial"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O Shelly funciona sem internet?","acceptedAnswer":{"@type":"Answer","text":"Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet."}},{"@type":"Question","name":"Quantos Shelly posso ter na minha rede?","acceptedAnswer":{"@type":"Answer","text":"Routers domésticos típicos suportam 20-40 dispositivos. Para instalações maiores, recomenda-se uma rede mesh Ubiquiti com VLAN dedicada para IoT."}},{"@type":"Question","name":"Estou a construir — o que devo prever?","acceptedAnswer":{"@type":"Answer","text":"Neutro em todas as caixas de interruptores, canalizações para Ethernet, espaço no quadro elétrico para módulos e localização central para rack de equipamento."}},{"@type":"Question","name":"O que é um dispositivo Shelly?","acceptedAnswer":{"@type":"Answer","text":"Dispositivos Shelly são módulos compactos que se instalam na instalação elétrica existente e transformam interruptores, tomadas e circuitos em dispositivos inteligentes com controlo remoto e automação."}},{"@type":"Question","name":"Preciso de neutro para instalar Shelly?","acceptedAnswer":{"@type":"Answer","text":"Os modelos Shelly 1 e Shelly 2PM sem neutro funcionam sem fio neutro. Os modelos Plus e Pro recomendam a presença de neutro para funcionamento estável."}},{"@type":"Question","name":"O que é o Frigate?","acceptedAnswer":{"@type":"Answer","text":"Frigate é um NVR open-source com deteção de objetos por IA que roda localmente. Usa GPU para analisar vídeo em tempo real e distinguir entre pessoas, veículos e animais."}},{"@type":"Question","name":"O Shelly funciona sem internet?","acceptedAnswer":{"@type":"Answer","text":"Sim, os dispositivos Shelly funcionam perfeitamente na rede local. As automações configuradas localmente executam-se sem necessidade de internet. Apenas o acesso remoto e notificações Push requerem conectividade."}},{"@type":"Question","name":"Quantos dispositivos Shelly posso ter numa rede?","acceptedAnswer":{"@type":"Answer","text":"Depende do router. Routers domésticos típicos suportam 20-40 dispositivos sem problemas. Para instalações maiores, recomenda-se uma rede mesh Ubiquiti ou similar com VLAN dedicada para dispositivos IoT."}},{"@type":"Question","name":"Preciso de neutro na caixa de derivação?","acceptedAnswer":{"@type":"Answer","text":"Os modelos Shelly 1 e Shelly 2PM sem neutro funcionam sem fio neutro, mas os modelos Plus e Pro recomendam a presença de neutro para funcionamento estável. Verifique sempre as especificações do modelo."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O Shelly funciona sem internet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quantos Shelly posso ter na minha rede?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Routers domésticos típicos suportam 20-40 dispositivos. Para instalações maiores, recomenda-se uma rede mesh Ubiquiti com VLAN dedicada para IoT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Estou a construir — o que devo prever?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neutro em todas as caixas de interruptores, canalizações para Ethernet, espaço no quadro elétrico para módulos e localização central para rack de equipamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é um dispositivo Shelly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dispositivos Shelly são módulos compactos que se instalam na instalação elétrica existente e transformam interruptores, tomadas e circuitos em dispositivos inteligentes com controlo remoto e automação."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de neutro para instalar Shelly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os modelos Shelly 1 e Shelly 2PM sem neutro funcionam sem fio neutro. Os modelos Plus e Pro recomendam a presença de neutro para funcionamento estável."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é o Frigate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Frigate é um NVR open-source com deteção de objetos por IA que roda localmente. Usa GPU para analisar vídeo em tempo real e distinguir entre pessoas, veículos e animais."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Shelly funciona sem internet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, os dispositivos Shelly funcionam perfeitamente na rede local. As automações configuradas localmente executam-se sem necessidade de internet. Apenas o acesso remoto e notificações Push requerem conectividade."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quantos dispositivos Shelly posso ter numa rede?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende do router. Routers domésticos típicos suportam 20-40 dispositivos sem problemas. Para instalações maiores, recomenda-se uma rede mesh Ubiquiti ou similar com VLAN dedicada para dispositivos IoT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de neutro na caixa de derivação?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os modelos Shelly 1 e Shelly 2PM sem neutro funcionam sem fio neutro, mas os modelos Plus e Pro recomendam a presença de neutro para funcionamento estável. Verifique sempre as especificações do modelo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instalamos shelly em Cascais e arredores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Fazemos orçamentos e primeiras visitas gratuitos em Cascais. O suporte pós-instalação é local e remoto via Home Assistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa shelly numa casa em Cascais?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projetos típicos começam em 180-300€, consoante o tamanho da casa. Orçamento detalhado em 24h, sem compromisso."
+      }
+    }
+  ]
+}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Automatika.pt","url":"https://automatika.pt","logo": "https://automatika.pt/assets/logo.png","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","areaServed":{"@type":"Country","name":"Portugal"},"sameAs": []}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://automatika.pt/servicos/shelly-cascais/","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","inLanguage":"pt-PT"}</script>
 </body>

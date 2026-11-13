@@ -209,7 +209,17 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
       </section>
     
 
-    <section class="section-padding">
+      <section class="section-padding bg-gray-50">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Particularidades locais de Controlo de Acesso e Trancas Inteligentes em Porto</h2>
+      <p class="mb-4">a zona combina pedra antiga no centro (sem neutro nas caixas) com apartamentos novos na Foz e Aldoar — cada caso exige uma solução diferente.</p>
+      <ul class="list-disc pl-6 text-gray-600 mb-4">
+        <li>No centro histórico, usamos dispositivos sem neutro e relés Zigbee para não tocar na instalação original.</li>
+        <li>Inverno mais frio e húmido: automação de climatização com sensores de temperatura poupa 10-20% na factura.</li>
+      </ul>
+    </div>
+  </section>
+<section class="section-padding">
       <div class="container-narrow max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold mb-6">Controlo de Acesso e Trancas Inteligentes: Benefícios</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Códigos PIN temporários para visitantes e serviços</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Desbloqueio automático ao chegar a casa (geofencing)</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Registo completo de entradas e saídas com hora</p></div><div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><p class="text-gray-700">Ideal para alojamento local — acesso autónomo dos hóspedes</p></div></div>
@@ -362,6 +372,15 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
         <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">O Shelly funciona sem internet?</summary>
         <div class="p-4 pt-0 text-gray-600">Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet.</div>
       </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Instalam controlo de acesso e trancas inteligentes em Porto e arredores?</summary>
+      <div class="p-4 pt-0 text-gray-600">Sim. Fazemos orçamentos e primeiras visitas gratuitos em Porto (Foz, Aldoar, Bonfim e o centro histórico). O suporte pós-instalação é local, presencial quando necessário e remoto via Home Assistant.</div>
+    </details>
+    <details class="border border-gray-200 rounded-lg mb-3">
+      <summary class="font-semibold p-4 cursor-pointer hover:bg-gray-50 rounded-lg">Quanto custa controlo de acesso e trancas inteligentes numa casa em Porto?</summary>
+      <div class="p-4 pt-0 text-gray-600">Depende do tamanho da casa e dos dispositivos, mas os projetos típicos começam em 180-300€. Enviamos um orçamento detalhado em 24h, sem compromisso.</div>
+    </details>
+
     
       </div>
     </section>
@@ -618,7 +637,92 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; }
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://automatika.pt"},{"@type":"ListItem","position":2,"name":"Porto","item":"https://automatika.pt/cidades/porto/"},{"@type":"ListItem","position":3,"name":"Controlo de Acesso e Trancas Inteligentes","item":"https://automatika.pt/servicos/controlo-acesso-porto/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","url":"https://automatika.pt/cidades/porto/","telephone":"+351 912 345 678","email":"info@automatika.pt","address":{"@type":"PostalAddress","addressLocality":"Porto","addressRegion":"Porto","addressCountry":"PT"},"areaServed":{"@type":"City","name":"Porto"},"geo":{"@type":"GeoCoordinates","latitude":41.1579,"longitude":-8.6291},"priceRange":"€€"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Controlo de Acesso e Trancas Inteligentes em Porto","description":"O controlo de acesso inteligente elimina a necessidade de chaves físicas. Trancas com código PIN, cartões NFC, desbloqueio biométrico e geofencing permitem entrar em casa de forma conveniente enquanto mantêm um registo completo de quem entra e sai.","provider":{"@type":"LocalBusiness","name":"Automatika.pt","url":"https://automatika.pt"},"areaServed":{"@type":"City","name":"Porto"},"serviceType":"Automação Residencial"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Que tranca inteligente funciona melhor em Portugal?","acceptedAnswer":{"@type":"Answer","text":"A Aqara N100 é uma das melhores opções com integração nativa no Home Assistant via Zigbee. Suporta código PIN, NFC e biometria."}},{"@type":"Question","name":"Posso ficar trancado fora se a bateria acabar?","acceptedAnswer":{"@type":"Answer","text":"As trancas funcionam com 4-6 pilhas AA que duram 6-12 meses. Quando fraca, emite alertas. Todas têm desbloqueio por chave física como backup."}},{"@type":"Question","name":"E se não gostar posso remover?","acceptedAnswer":{"@type":"Answer","text":"Sim, a maioria dos dispositivos é removível. Sensores Zigbee saem com o adesivo. Interruptores Shelly podem ser substituídos pelo original."}},{"@type":"Question","name":"Como monitorizar a propriedade remotamente?","acceptedAnswer":{"@type":"Answer","text":"Sensores de temperatura, humidade e fugas de água enviam alertas ao telemóvel. Câmaras com Frigate gravam localmente e detetam atividade suspeita."}},{"@type":"Question","name":"Operam em Porto?","acceptedAnswer":{"@type":"Answer","text":"Sim, prestamos serviços de instalação e configuração em Porto e municípios vizinhos. Contacte-nos para verificar disponibilidade na sua zona."}},{"@type":"Question","name":"O Shelly funciona sem internet?","acceptedAnswer":{"@type":"Answer","text":"Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet."}},{"@type":"Question","name":"Que tranca inteligente funciona melhor em Portugal?","acceptedAnswer":{"@type":"Answer","text":"A Aqara N100 é uma das melhores opções com integração nativa no Home Assistant via Zigbee. Suporta código PIN, NFC, desbloqueio biométrico e tem motor silencioso."}},{"@type":"Question","name":"Posso ficar trancado fora se a bateria acabar?","acceptedAnswer":{"@type":"Answer","text":"A maioria das trancas inteligentes funciona com 4-6 pilhas AA que duram 6-12 meses. Quando a bateria está fraca, a tranca emite alertas sonoros e notificações. Como backup, todas têm desbloqueio por chave física."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Que tranca inteligente funciona melhor em Portugal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Aqara N100 é uma das melhores opções com integração nativa no Home Assistant via Zigbee. Suporta código PIN, NFC e biometria."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso ficar trancado fora se a bateria acabar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As trancas funcionam com 4-6 pilhas AA que duram 6-12 meses. Quando fraca, emite alertas. Todas têm desbloqueio por chave física como backup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "E se não gostar posso remover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, a maioria dos dispositivos é removível. Sensores Zigbee saem com o adesivo. Interruptores Shelly podem ser substituídos pelo original."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como monitorizar a propriedade remotamente?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sensores de temperatura, humidade e fugas de água enviam alertas ao telemóvel. Câmaras com Frigate gravam localmente e detetam atividade suspeita."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Operam em Porto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, prestamos serviços de instalação e configuração em Porto e municípios vizinhos. Contacte-nos para verificar disponibilidade na sua zona."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Shelly funciona sem internet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Os dispositivos Shelly funcionam perfeitamente na rede local WiFi. As automações configuradas no dispositivo ou no Home Assistant executam-se sem necessidade de internet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que tranca inteligente funciona melhor em Portugal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Aqara N100 é uma das melhores opções com integração nativa no Home Assistant via Zigbee. Suporta código PIN, NFC, desbloqueio biométrico e tem motor silencioso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso ficar trancado fora se a bateria acabar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A maioria das trancas inteligentes funciona com 4-6 pilhas AA que duram 6-12 meses. Quando a bateria está fraca, a tranca emite alertas sonoros e notificações. Como backup, todas têm desbloqueio por chave física."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instalamos controlo de acesso e trancas inteligentes em Porto e arredores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Fazemos orçamentos e primeiras visitas gratuitos em Porto. O suporte pós-instalação é local e remoto via Home Assistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa controlo de acesso e trancas inteligentes numa casa em Porto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projetos típicos começam em 180-300€, consoante o tamanho da casa. Orçamento detalhado em 24h, sem compromisso."
+      }
+    }
+  ]
+}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Automatika.pt","url":"https://automatika.pt","logo": "https://automatika.pt/assets/logo.png","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","areaServed":{"@type":"Country","name":"Portugal"},"sameAs": []}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://automatika.pt/servicos/controlo-acesso-porto/","name":"Automatika.pt","description":"Venda, instalação e manutenção de sistemas de automação para casas, escritórios, hotéis e condomínios.","inLanguage":"pt-PT"}</script>
 </body>
